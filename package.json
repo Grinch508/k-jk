@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "mongodb": "^6.9.0",
+    "mongoose": "^8.6.3",
+    "next": "^14.2.13",
+    "nodemon": "^3.1.6",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "name": "portfolio_with_nextjs",
+  "version": "1.0.0",
+  "description": "This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

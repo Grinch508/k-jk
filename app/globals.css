@@ -1,0 +1,26 @@
+body {
+  background: linear-gradient(95deg, hsl(280, 100%, 70%),  hsl(300, 100%, 70%));
+  color: hsl(50 90% 70%);
+}
+
+
+nav {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 50%;
+}
+
+a {
+  text-decoration: none;
+  margin: 1%;
+  padding: 1%;
+  transition: 300ms;
+  font-size: 1.5em;
+  color: hsl(50 90% 70%);
+}
+
+nav > .active {
+  font-size: 2em;
+  border: solid 2px hsl(50 90% 70%);
+}
